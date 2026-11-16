@@ -1,0 +1,364 @@
+body{
+    margin: 0;
+    font-family: 'Inter', Verdana, sans-serif;
+    background-color: #10291B;
+    color: black;
+    padding: 0px;
+
+    background-image: url("/Assets/bg-icon.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+nav {
+    background-color: white;
+    padding: 10px 25px;
+    box-shadow: 0 0 10px 5px rgba(60, 212, 78, 0.3);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 50px;
+}
+
+.brand-container {
+    display: flex;
+    align-items: center;
+}
+
+.brand-container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.title {
+    margin: 10px;
+    color: green;
+    font-size: 20px;
+}
+
+.links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.link {
+    color: green;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.link:hover {
+    color: white;
+    background-color: green;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.button-link {
+    display: inline-block;
+    background-color: rgb(60, 212, 78);
+    color: white;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.button-link:hover {
+    background-color: green;
+    color: white;
+}
+
+
+
+/* CONTACT SECTION */
+.Contact-section {
+    padding: 30px 100px 80px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+/* LEFT CONTENT */
+.contact-content {
+    flex: 1;
+    max-width: 550px;
+    margin-top: -50px;
+}
+
+/* CONTACT SUBHEADING */
+.contact-content h3 {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* CONTACT MAIN HEADING */
+.contact-content h1 {
+    color: black;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+/* CONTACT DESCRIPTION */
+.contact-content p {
+    color: black;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* SEND MESSAGE CTA */
+.cta-contact {
+    display: inline-block;
+    background: #3CD44E;
+    padding: 12px 30px;
+    border-radius: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.cta-contact a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    text-decoration: none;
+}
+
+.cta-contact:hover {
+    background: green;
+}
+
+/* RIGHT IMAGE */
+.contact-img img {
+    width: 330px;
+    height: 410px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* CONTACT FORM SECTION */
+.form {
+    padding: 70px 100px 90px 100px;
+    color: black;
+}
+
+/* INTRODUCTION */
+.form-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.form-title h2 {
+    font-size: 42px;
+    color: #10291B;
+    margin-bottom: 15px;
+}
+
+.form-title p {
+    font-size: 20px;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* MAIN CONTAINER */
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 50px;
+}
+
+/* LEFT CONTACT INFORMATION */
+.form-info {
+    flex: 1;
+    background-color: #10291B;
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+/* CONTACT HEADING */
+.form-heading {
+    margin-bottom: 35px;
+}
+
+.form-heading h3 {
+    font-size: 28px;
+    margin-bottom: 12px;
+    color: white;
+}
+
+.form-heading p {
+    font-size: 17px;
+    line-height: 1.5;
+    color: #d5e5d9;
+}
+
+/* CONTACT ITEMS */
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+/* ICON CONTAINER */
+.contact-icon {
+    width: 55px;
+    height: 55px;
+    min-width: 55px;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-icon img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+/* CONTACT DETAILS */
+.contact-item h3 {
+    font-size: 18px;
+    margin-bottom: 7px;
+    color: white;
+}
+
+.contact-item p {
+    font-size: 16px;
+    color: #d5e5d9;
+    margin: 0;
+    overflow-wrap: anywhere;
+}
+
+.contact-item a {
+    text-decoration: none;
+}
+
+/* RIGHT CONTACT FORM */
+.contact-form {
+    flex: 1;
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.07);
+}
+
+.contact-form h2 {
+    font-size: 28px;
+    color: #10291B;
+    margin-bottom: 12px;
+}
+
+.form-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+/* FORM LABELS */
+.contact-form label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #10291B;
+}
+
+/* INPUT FIELDS */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 14px 16px;
+    margin-bottom: 20px;
+    border: 1px solid #d9e4da;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 15px;
+    outline: none;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #3CD44E;
+    box-shadow: 0 0 5px rgba(60, 212, 78, 0.2);
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+/* SEND MESSAGE BUTTON */
+.contact-form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #3CD44E;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: green;
+}
+
+
+/*Footer*/
+footer {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    bottom: green;
+    background-color: #10291B;
+}
+
+.footer-brand {
+    display: flex;
+    align-items: center;
+}
+
+.Footer-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+.Footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3;
+}
+
+.Footer-links a:hover{
+    text-decoration: underline;
+    color: #ffffff;
+}

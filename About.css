@@ -1,0 +1,293 @@
+body{
+    margin: 0;
+    font-family: 'Inter', Verdana, sans-serif;
+    background-color: #10291B;
+    color: #F7F8F0;
+    padding: 0px;
+
+    background-image: url("/Assets/bg-icon.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: white;
+    padding: 10px 25px;
+    box-shadow: 0 0 10px 5px rgba(60, 212, 78, 0.3);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 50px;
+}
+
+.brand-container {
+    display: flex;
+    align-items: center;
+}
+
+.brand-container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.title {
+    margin: 10px;
+    color: green;
+    font-size: 20px;
+}
+
+.links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.link {
+    color: green;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.link:hover {
+    color: white;
+    background-color: green;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.button-link {
+    display: inline-block;
+    background-color: rgb(60, 212, 78);
+    color: white;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.button-link:hover {
+    background-color: green;
+    color: white;
+}
+
+/* About Contents */
+.About-section {
+    padding: 30px 100px 80px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+/* Left Content */
+.About-content {
+    flex: 1;
+    max-width: 550px;
+    padding-top: -20px;
+}
+
+.About-content h3 {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.About-content h1 {
+    color: black;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.About-content p {
+    color: black;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* Right Video */
+.promotional-video video {
+    width: 500px;
+    height: 300px;
+}
+
+/*Why Finuity*/
+.Why-finuity {
+    background-color: white;
+    padding: 20px;
+    color: black;
+}
+
+.Why-content {
+    text-align: center;
+}
+
+.Why-content span{
+    color: rgb(60, 212, 78);
+}
+
+.Why-content p {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+/* MVV */
+.MVV {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+    gap: 30px;
+}
+
+/* MVV IMAGES */
+.MVV img {
+    width: 55px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 3px;
+    margin-top: 10px;
+    object-fit: contain;
+}
+
+/* MISSION, VISION, VALUES */
+.Mission,
+.Vision,
+.Values {
+    background-color: #fff;
+    color: black;
+    box-shadow: 8px 8px 0px rgb(60, 212, 78);
+    border: solid rgb(60, 212, 78);
+
+    flex: 1;
+    max-width: 400px;
+    min-height: 290px;
+    box-sizing: border-box;
+
+    padding: 20px 15px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* TITLES */
+.Mission h3,
+.Vision h3,
+.Values h3 {
+    margin: 20px 0;
+    color: rgb(60, 212, 78);
+}
+
+/* DESCRIPTIONS */
+.Mission p,
+.Vision p,
+.Values p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+
+/*Team*/
+.team{
+    color: black;
+    padding: 20px;
+}
+
+.Our-team{
+    text-align: center;
+}
+
+.team-img{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.team img{
+    width: 200px;
+    height: 200px;
+}
+.partner-finuity{
+    margin: 20px 10px;
+    padding: 20px 10px;
+}
+.partner{
+    color: black;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.partner span {
+    color: rgb(60, 212, 78);
+}
+
+.cta-join {
+    border-radius: 10px;
+    height: 50px;
+    background-color: rgb(60, 212, 78);
+    display: block;
+    width: 180px;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+    transition: 0.3S;
+}
+.cta-join a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 13px;
+    left: 1px
+}
+
+.cta-join:hover{
+    background-color: #249b37;
+}
+
+footer {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #10291B;
+}
+
+.footer-brand {
+    display: flex;
+    align-items: center;
+}
+
+.Footer-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+.Footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3;
+}
+
+.Footer-links a:hover{
+    text-decoration: underline;
+    color: #ffffff;
+}

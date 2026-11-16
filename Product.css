@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    font-family: 'Inter', Verdana, sans-serif;
+    background-color: #10291B;
+    color: #F7F8F0;
+    padding: 0px;
+
+    background-image: url("/Assets/bg-icon.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: white;
+    padding: 10px 25px;
+    box-shadow: 0 0 10px 5px rgba(60, 212, 78, 0.3);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 50px;
+}
+
+
+.brand-container {
+    display: flex;
+    align-items: center;
+}
+
+.brand-container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.title {
+    margin: 10px;
+    color: green;
+    font-size: 20px;
+}
+
+.links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.link {
+    color: green;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.link:hover {
+    color: white;
+    background-color: green;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.button-link {
+    display: inline-block;
+    background-color: rgb(60, 212, 78);
+    color: white;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.button-link:hover {
+    background-color: green;
+    color: white;
+}
+
+
+/* PRODUCT SECTION */
+.Product-section {
+    padding: 30px 100px 80px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    color: black;
+}
+
+/* LEFT CONTENT */
+.Product-content {
+    margin-top: -100px;
+    flex: 1;
+    max-width: 550px;
+}
+
+/* PRODUCT SUBHEADING */
+.Product-content h3 {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* PRODUCT MAIN HEADING */
+.Product-content h1 {
+    color: black;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+/* PRODUCT DESCRIPTION */
+.Product-content p {
+    color: black;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* RIGHT IMAGE */
+.Product-img img {
+    width: 250px;
+    height: 500px;
+    object-fit: contain;
+    margin-left: -300px;
+}
+
+
+/* FEATURES */
+.features {
+    padding: 30px 100px;
+    margin-bottom: -30px;
+    
+}
+
+/* PRODUCT SERVICES */
+.Product-services {
+    color: black;
+    text-align: center;
+}
+
+.features-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px 10px 60px;
+}
+
+.image-container{
+    gap: 40px;
+    display: inline-flex;
+    width: 50%;
+    margin-left: -50px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.image-container img{
+    width: 300px;
+    height: 600px;
+    box-shadow: 10px 8px 6px 1px rgba(133, 133, 133, 0.1);
+    border-radius: 20px;
+}
+
+.description{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 60px;
+    gap: 40px;
+    background-color: white;
+    color: black;
+    width: 400px;
+    border: solid rgb(60, 212, 78);
+    padding: 20px 30px;
+    text-align: center;
+    box-shadow: 8px 8px 0px rgb(60, 212, 78);
+    border-radius: 20px;
+}
+
+.description img{
+    width: 50px;
+    height: inherit;
+}
+
+.description h3{
+    color: rgb(60, 212, 78);
+}
+
+
+
+footer {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #10291B;
+}
+
+.footer-brand {
+    display: flex;
+    align-items: center;
+}
+
+.Footer-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+.Footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3;
+}
